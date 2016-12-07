@@ -1,0 +1,100 @@
+html, body {
+  background:url('../img/bg.jpg') center center no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-color: #fff;
+}
+
+#time .counter {
+  text-align: center;
+  color: #cccc00;
+  font-size: 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-top: 60px;
+}
+
+#title .lab {
+  margin-top: 30px;
+  text-align: center;
+  /* color: #ff6633; */
+  font-size: 70px;
+  font-family: 'Bungee Shade', cursive;
+  padding-top: 35px;
+  background: linear-gradient(330deg, #e05252 0%, #ff6633 25%, #52e0e0 50%, #9952e0 75%, #cccc00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+#mgs .c_soon {
+  text-align: center;
+  color: #ff6633;
+  font-size: 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+#social {
+  text-align: center;
+}
+
+#social .fa {
+  color: #000;
+  margin: 50px 5px;
+  position: relative;
+  bottom: 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+#social .facebook:hover {
+  color: #3133FF;
+  bottom: 5px;
+}
+
+#social .twitter:hover {
+  color: #65CDFF;
+  bottom: 5px;
+}
+
+#social .google:hover {
+  color: #DB4437;
+  bottom: 5px;
+}
+
+#social .youtube:hover {
+  color: #E62117;
+  bottom: 5px;
+}
+
+#fot .fot_text {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  color: #000;
+}
+
+@media(max-width: 768px) {
+  /*media for title*/
+  #title .lab {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #time .counter {
+    font-size: 25px;
+    padding-top: 30px;
+  }
+
+  #mgs .c_soon {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  #social {
+    font-size: 10px;
+  }
+}
